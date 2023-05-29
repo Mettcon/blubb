@@ -3,8 +3,9 @@ package com.example.blubb
 import java.time.LocalTime
 
 data class Action(
+    val name: String,
     val trigger: LocalTime,
-    val action: Unit,
+    val effect: Unit,
     val active: Boolean
 )
 //
